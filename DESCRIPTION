@@ -1,13 +1,16 @@
 Package: drakepkg
-Version: 0.0.3
-Title: Demonstrate A Drake Workflow Package
-Description: An example of a drake workflow organized as a package.
-Authors@R: person("Tiernan", "Martin", email = "tiernan.martin@gmail.com", role = c("aut", "cre"))
+Version: 0.1.0
+Title: Reproducible Research with a Packaged `drake` Workflow
+Description: An example of how to provide a drake workflow as an R package to facilitate reproducibility of the analysis
+Authors@R: c(
+    person("Tiernan", "Martin", email = "tiernan.martin@gmail.com", role = c("aut", "cre")),
+    person("Janosch", "Linkersdörfer", email = "linkersdoerfer@mailbox.org", role = c("aut"))
+    )
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 Depends: R (>= 3.1.0), drake
 Imports:
     magrittr,
@@ -17,9 +20,13 @@ Imports:
     rmarkdown,
     purrr,
     readxl,
-    forcats
+    forcats,
+    visNetwork,
+    lubridate
 Suggests:
     testthat,
-    writexl
-URL: https://github.com/tiernanmartin/drakepkg
-BugReports: https://github.com/tiernanmartin/drakepkg/issues
+    writexl,
+    knitr,
+    rmarkdown
+URL: https://github.com/januz/drakepkg
+VignetteBuilder: knitr

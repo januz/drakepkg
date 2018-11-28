@@ -1,0 +1,13 @@
+reference:
+- title: "Reproducible research"
+  desc: "Functions for reproducing the analysis"
+  contents:
+  - '`copy_analysis`'
+  - '`reproduce_analysis`'
+  - '`delete_analysis`'
+- title: "Analysis pipeline"
+  desc: "Functions underlying the analysis workflow"
+  contents:
+  - '`get_plan`'
+  - '`create_plot`'
+

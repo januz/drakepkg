@@ -1,9 +1,4 @@
-^README\.Rmd$
-^LICENSE\.md$
-^drakepkg\.Rproj$
+^docs$
+^_pkgdown\.yml$
+^.*\.Rproj$
 ^\.Rproj\.user$
-^\.drake$
-^inst/extdata/R
-^doc
-^extdata
-^plans
